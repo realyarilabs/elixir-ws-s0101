@@ -24,8 +24,37 @@
 
 ---
 
-* macOS w/ Homebrew: `brew update && brew install elixir`
-* Arch Linux (Community repo): `pacman -S elixir`
+### macOS w/ Homebrew: 
+`brew update` && `brew install elixir`
+
+### Arch Linux (Community repo): 
+`pacman -S elixir`
+
++++
+
+### Ubuntu 14.04/16.04/17.04/18.04 or Debian 7/8/9
+Add Erlang Solutions repo: 
+`wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb`
+
+Run: `sudo apt-get update`
+
+Install the Erlang/OTP platform and all of its applications: 
+`sudo apt-get install esl-erlang`
+
+Install Elixir: 
+`sudo apt-get install elixir`
+
++++
+
+For others 
+
+* https://elixir-lang.org/install.html
+
+or install with a version manager like asdf
+
+* https://github.com/asdf-vm/asdf 
+
+---
 
 ## Intro to Elixir 
 
