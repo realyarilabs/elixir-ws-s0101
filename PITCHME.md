@@ -25,10 +25,16 @@
 ---
 
 ### macOS w/ Homebrew: 
-`brew update` && `brew install elixir`
+
+```shell
+brew update
+brew install elixir`
+```
 
 ### Arch Linux (Community repo): 
-`pacman -S elixir`
+```shell
+pacman -S elixir
+```
 
 +++
 
