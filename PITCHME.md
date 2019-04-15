@@ -3,13 +3,6 @@
 
 ---
 
-## Yarilabs on social media
-* [twitter/yarilabs](https://twitter.com/yarilabs)
-* [instagram.com/yarilabs](https://instagram.com/yarilabs)
-* [medium/yarilabs](https://medium.com/yarilabs)
-
----
-
 @snap[h2-purple]
 ## Elixir Workshop - S01 01
 @snapend
@@ -24,45 +17,47 @@
 
 ---
 
-### macOS w/ Homebrew: 
+* macOS w/ Homebrew: 
 
 ```shell
-brew update
-brew install elixir`
+- brew update
+- brew install elixir`
 ```
 
-### Arch Linux (Community repo): 
+* Arch Linux (Community repo): 
+
 ```shell
-pacman -S elixir
+- pacman -S elixir
 ```
 
 +++
 
-### Ubuntu 14.04/16.04/17.04/18.04 or Debian 7/8/9
+* Ubuntu 17/18 or Debian 8/9
 
 ```shell
-# Add Erlang Solutions repo: 
-wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
 
-# Run: `sudo apt-get update`
+# Add Erlang Solutions repo: 
+- wget https://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb 
+- sudo dpkg -i erlang-solutions_1.0_all.deb
+- sudo apt-get update
 
 # Install the Erlang/OTP platform and all of its applications: 
-`sudo apt-get install esl-erlang`
+- sudo apt-get install esl-erlang
 
 # Install Elixir: 
-`sudo apt-get install elixir`
+- sudo apt-get install elixir
 
 ```
 
 +++
 
-For others 
+More instructions or other OS 
 
 * https://elixir-lang.org/install.html
 
 or install with a version manager like asdf
 
-* https://github.com/asdf-vm/asdf 
+* https://github.com/asdf-vm/asdf (demo)
 
 ---
 
