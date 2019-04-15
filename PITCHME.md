@@ -14,8 +14,18 @@
 ## Elixir Workshop - S01 01
 @snapend
 
-#### Functional Programming by Yarilabs
+#### by Yarilabs
+
 ---
+
+@snap[h2-purple]
+## Installing Elixir 
+@snapend
+
+---
+
+* macOS w/ Homebrew: `brew update && brew install elixir`
+* Arch Linux (Community repo): `pacman -S elixir`
 
 ## Intro to Elixir 
 
